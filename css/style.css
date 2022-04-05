@@ -20,6 +20,7 @@ header{
 
 #title{
     color: rgb(255, 182, 193);
+    line-height: 5px;
 }
 
 a{
@@ -49,6 +50,8 @@ p{
 h2{
     color: rgb(151, 209, 228);
     font-family: poppinsmedium;
+    font-size: 44pt;
+    line-height: 15px;
 }
 
 span{
@@ -74,7 +77,9 @@ button{
 }
 
 img{
-    width: 440px;
+    width: 500px;
+    height:auto;
+
 }
 
 footer{
