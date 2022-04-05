@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-image: url("../components/images/pink-background.png");
     color: white;
     margin: 0px;
     padding: 0px;
@@ -21,16 +21,19 @@ header{
 #title{
     color: rgb(255, 182, 193);
     line-height: 5px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 a{
-    color: rgb(151, 209, 228);
-    border: 1px solid rgb(255, 182, 193);
+    color: black;
+    border: 1px solid black;
     border-radius: 10px;
+    background-color: rgb(255, 182, 193);
 }
 
 a:hover{
-    color: rgb(255, 182, 193);
+    color: rgb(151, 209, 228);
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 li{
@@ -44,7 +47,9 @@ main{
 }
 
 p{
-    font-family: poppinslight;
+    font-family: poppinsmedium;
+    color: black;
+    line-height: 10px;
 }
 
 h2{
@@ -52,6 +57,7 @@ h2{
     font-family: poppinsmedium;
     font-size: 44pt;
     line-height: 15px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 span{
@@ -61,24 +67,48 @@ span{
 forms{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgb(255, 182, 193);
+}
+
+label{
+    color: black;
+    font-family: poppinsmedium;
+    margin-top: 8px;
+
 }
 
 input{
     padding: 5px;
-    height: 7px;
-    margin-top: 8px;
+    height: 15px;
+    font-family: poppinsmedium;
+    color: black;
     border-radius: 5px;
+    /*outline: none --tirar a corzinha de preenchimento;
+	border: none; --tirar a borda*/
+}
+
+input:focus{
+    border: 5px solid rgb(151, 209, 228);
 }
 
 button{
     margin-top: 8px;
     border-radius: 5px;
+    background-color: rgb(151, 209, 228);
+    font-family: poppinsmedium;
+}
+
+button:hover{
+    background-color: rgb(255, 182, 193);
 }
 
 img{
     width: 500px;
-    height:auto;
+    height: auto;
 
 }
 
